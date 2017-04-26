@@ -151,7 +151,7 @@ var Game =
 		Snake.isAlive = true;
 		Snake.size = 3;
 		Snake.direction = 'r';
-		Game.point = 0;
+		Game.score = 0;
 		Snake.draw();
 		Game.loop();
 	},
