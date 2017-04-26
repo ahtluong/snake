@@ -152,7 +152,7 @@ var Game =
 		Snake.size = 3;
 		Snake.direction = 'r';
 		Game.score = 0;
-		$('#score').text(0);
+		$('#score').text('0');
 		Snake.draw();
 		Game.loop();
 	},
