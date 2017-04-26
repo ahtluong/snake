@@ -1,0 +1,4 @@
+- Alex Luong
+- Classic Snake Game using Javascript and jQuery
+- Practicing Javascript structures (objects, functions, etc)
+- From The Odin Project's curriculum
