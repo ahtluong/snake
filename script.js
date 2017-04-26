@@ -151,6 +151,7 @@ var Game =
 		Snake.isAlive = true;
 		Snake.size = 3;
 		Snake.direction = 'r';
+		Game.point = 0;
 		Snake.draw();
 		Game.loop();
 	},
@@ -158,7 +159,7 @@ var Game =
 	end: function() {
 		$('#overlay').append($('<h1/>').text('GAME OVER'));
 		$('#overlay').show();
-		console.log('over');
+		// console.log('over');
 	}
 };
 
@@ -187,5 +188,5 @@ var Food =
 
 $(document).ready(function() {
 	Board.render();
-	$('#button').click(Game.start)
+	$('#button').click(Game.start);
 });
